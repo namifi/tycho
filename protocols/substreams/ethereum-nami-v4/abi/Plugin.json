@@ -1,0 +1,51 @@
+[
+  {
+    "type": "function",
+    "name": "beforeSwap",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      {
+        "name": "sender",
+        "type": "address"
+      },
+      {
+        "name": "recipient",
+        "type": "address"
+      },
+      {
+        "name": "zeroToOne",
+        "type": "bool"
+      },
+      {
+        "name": "amountRequired",
+        "type": "int256"
+      },
+      {
+        "name": "limitSqrtPrice",
+        "type": "uint160"
+      },
+      {
+        "name": "withPaymentInAdvance",
+        "type": "bool"
+      },
+      {
+        "name": "data",
+        "type": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "selector",
+        "type": "bytes4"
+      },
+      {
+        "name": "feeOverride",
+        "type": "uint24"
+      },
+      {
+        "name": "pluginFee",
+        "type": "uint24"
+      }
+    ]
+  }
+]

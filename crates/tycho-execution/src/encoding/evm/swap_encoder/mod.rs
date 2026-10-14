@@ -23,6 +23,7 @@ mod lunarbase;
 mod maverick_v2;
 mod metric;
 mod metric_fallback;
+mod nami_v4;
 mod native;
 mod native_wrap;
 mod propamm;

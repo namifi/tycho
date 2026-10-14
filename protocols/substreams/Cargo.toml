@@ -36,6 +36,7 @@ members = [
     "ethereum-ring-swap-v2",
     "ethereum-sky",
     "polygon-ramses-v3",
+    "ethereum-nami-v4",
     "ethereum-etherfi",
 ]
 resolver = "2"
